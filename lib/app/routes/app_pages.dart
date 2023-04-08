@@ -15,6 +15,8 @@ class AppPages {
 
   // ignore: constant_identifier_names
   static const INITIAL = Routes.NEWS;
+  // ignore: constant_identifier_names
+  static const Weather = Routes.WEATHER;
 
   static final routes = [
     GetPage(
