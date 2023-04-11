@@ -1,3 +1,5 @@
+// ignore_for_file: constant_identifier_names
+
 import 'package:get/get.dart';
 
 import '../modules/bmi_calculator/bindings/bmi_calculator_binding.dart';
@@ -13,10 +15,11 @@ part 'app_routes.dart';
 class AppPages {
   AppPages._();
 
-  // ignore: constant_identifier_names
   static const INITIAL = Routes.NEWS;
-  // ignore: constant_identifier_names
+
   static const Weather = Routes.WEATHER;
+
+  static const BMI_CALCULATOR = Routes.BMI_CALCULATOR;
 
   static final routes = [
     GetPage(

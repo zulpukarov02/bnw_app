@@ -45,6 +45,31 @@ class NewsView extends GetView<NewsController> {
           },
         ),
       ),
+      floatingActionButton: FloatingActionButton.extended(
+        hoverColor: AppColors.black,
+        onPressed: () async => await Get.toNamed(AppPages.BMI_CALCULATOR),
+        label: const Text("bmi"),
+        // label: const Icon(
+        //   Icons.health_and_safety_outlined,
+        //   size: 40,
+        //   color: AppColors.bmi,
+        // ),
+
+        // floatingActionButton: SizedBox(
+        //   height: 60,
+        //   width: 60,
+        //   child: InkWell(
+        //     child: const Icon(
+        //       Icons.health_and_safety,
+        //       size: 60,
+        //       color: AppColors.bmi,
+        //     ),
+        //     onTap: () {
+
+        //     },
+        //   ),
+        // ),
+      ),
     );
   }
 }

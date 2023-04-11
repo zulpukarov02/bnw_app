@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:step_1/app/constants/api_const.dart';
 import 'package:step_1/app/models/news_model.dart';
 import 'package:step_1/app/theme/app_colors.dart';
-import 'package:step_1/app/theme/app_textstyle.dart';
 
 class CardNews extends StatelessWidget {
   const CardNews({

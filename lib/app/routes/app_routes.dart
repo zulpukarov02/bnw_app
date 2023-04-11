@@ -12,7 +12,7 @@ abstract class Routes {
 
 abstract class _Paths {
   _Paths._();
-  static const NEWS = '/news';
-  static const WEATHER = '/weather';
+  static const NEWS = '/';
+  static const WEATHER = '/';
   static const BMI_CALCULATOR = '/bmi-calculator';
 }
